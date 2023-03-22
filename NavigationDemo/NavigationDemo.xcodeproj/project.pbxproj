@@ -16,6 +16,8 @@
 		2DF768F529CB5E0F00D29566 /* NavigationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF768F429CB5E0F00D29566 /* NavigationDemoTests.swift */; };
 		2DF768FF29CB5E0F00D29566 /* NavigationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF768FE29CB5E0F00D29566 /* NavigationDemoUITests.swift */; };
 		2DF7690129CB5E0F00D29566 /* NavigationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF7690029CB5E0F00D29566 /* NavigationDemoUITestsLaunchTests.swift */; };
+		2DF7690E29CB6B2E00D29566 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF7690D29CB6B2E00D29566 /* FormViewController.swift */; };
+		2DF7691029CB6CD400D29566 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF7690F29CB6CD400D29566 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2DF768FA29CB5E0F00D29566 /* NavigationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF768FE29CB5E0F00D29566 /* NavigationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITests.swift; sourceTree = "<group>"; };
 		2DF7690029CB5E0F00D29566 /* NavigationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DF7690D29CB6B2E00D29566 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		2DF7690F29CB6CD400D29566 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2DF768E629CB5E0F00D29566 /* Assets.xcassets */,
 				2DF768E829CB5E0F00D29566 /* LaunchScreen.storyboard */,
 				2DF768EB29CB5E0F00D29566 /* Info.plist */,
+				2DF7690D29CB6B2E00D29566 /* FormViewController.swift */,
+				2DF7690F29CB6CD400D29566 /* InfoViewController.swift */,
 			);
 			path = NavigationDemo;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				2DF768E229CB5E0E00D29566 /* ViewController.swift in Sources */,
 				2DF768DE29CB5E0E00D29566 /* AppDelegate.swift in Sources */,
+				2DF7690E29CB6B2E00D29566 /* FormViewController.swift in Sources */,
 				2DF768E029CB5E0E00D29566 /* SceneDelegate.swift in Sources */,
+				2DF7691029CB6CD400D29566 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
