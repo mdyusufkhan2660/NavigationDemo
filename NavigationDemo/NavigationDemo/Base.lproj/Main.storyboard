@@ -68,7 +68,7 @@
         <!--FormView-->
         <scene sceneID="czX-xd-fmM">
             <objects>
-                <viewController id="aOZ-mx-Kt9" userLabel="FormView" customClass="FormViewController" customModule="NavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sign Up" id="aOZ-mx-Kt9" userLabel="FormView" customClass="FormViewController" customModule="NavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OcA-rt-qbb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,7 +130,7 @@
                             <constraint firstItem="gD0-ZG-GEt" firstAttribute="bottom" secondItem="G1Y-T0-Pfl" secondAttribute="bottom" constant="666" id="wKo-hL-4cu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="adO-c8-okk"/>
+                    <navigationItem key="navigationItem" title="Sign up" id="adO-c8-okk"/>
                     <connections>
                         <outlet property="email" destination="fH7-hz-hck" id="HLH-Bn-YL9"/>
                         <outlet property="firstName" destination="G1Y-T0-Pfl" id="VDy-Pk-imL"/>
